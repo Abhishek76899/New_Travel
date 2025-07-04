@@ -6,4 +6,10 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(),tailwindcss(),],
   base:"/New_Travel",
+  build: {
+    outDir: 'dist'
+  },
+  server: {
+    historyApiFallback: true, // 👈 handles React Router fallback
+  }
 })

@@ -240,7 +240,7 @@ const Header = () => {
               <div className="w-full md:w-1/2 flex flex-col justify-center px-6 md:px-12">
                 <div className="flex flex-col gap-8">
                    {[
-      { label: 'Business Travel Management', path: '/Travel-Web' },
+      { label: 'Business Travel Management', path: '/New_Travel' },
       { label: 'Meetings & Events', path: '/meetings-events' },
       { label: 'Resource Library', path: '/resources' },
       { label: 'About Us', path: '/about' },
